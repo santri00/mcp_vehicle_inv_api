@@ -1,0 +1,16 @@
+{
+  "mcpServers": {
+    "vehicle-inventory": {
+      "command": "C:\\Users\\tripa\\AppData\\Local\\Microsoft\\WinGet\\Packages\\astral-sh.uv_Microsoft.Winget.Source_8wekyb3d8bbwe\\uv.exe",
+      "args": [
+        "run",
+        "--directory",
+        "C:\\Users\\tripa\\Code\\src\\github.com\\santri00\\mcp-vehicle-inv-api",
+        "mcp-vehicle-inv-api"
+      ],
+      "env": {
+        "GOLANG_API_BASE_URL": "http://localhost:3001/inventory/v1"
+      }
+    }
+  }
+}
